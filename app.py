@@ -11,13 +11,6 @@ def index():
 def product():
     return render_template('/products.html')
 
-@app.route('/mall')
-def mall():
-    return render_template('/mall.html')
-
-@app.route('/mall1')
-def mall1():
-    return render_template('/mall1.html')
 
 @app.route('/cart')
 def cart():
